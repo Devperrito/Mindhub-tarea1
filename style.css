@@ -1,0 +1,56 @@
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40%;
+    width: 30%;
+    background: black;
+    padding: 10px;
+}
+
+.container {
+background-color: blue;
+display: flex;
+flex-direction: column;
+height: 100vh;
+align-items: center;
+}
+
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+  width: 90%;
+  height: 50%;
+  
+}
+
+.imagen {
+    position: relative;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    background: aliceblue;
+    justify-content: center;
+}
+
+img {
+ height: 100%;
+ width: 90%;       
+}
+
+.links {
+    position: absolute;
+    width: 90%;
+    top: -30px;
+    display: flex;
+    justify-content: flex-end;
+  
+}
