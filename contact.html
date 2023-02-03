@@ -4,47 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Contact page</title>
 </head>
 <body>
-  <div class="container">
-    <h1 style="margin-left: 70px;">Mighty Ducks Hockey League</h1>  
+  
+  <header>
+    <article>
+      <div class="text-container">
+        <h1>Mighty Ducks Hockey League</h1>
+      </div>
+    </article>
+
     <div id="navbar">
       <div class="imagen">
-        <img src="Imagenes/banner.jpg" alt="hockey" >
+        <img id="banner-img" src="Imagenes/banner.jpg" alt="hockey" />
         <div class="links">
-          <ul>
+          <ul id="ul-flex">
             <li id="home">
               <a href="index.html">Home</a>
             </li>
             <li id="about">
-              <a  href="about.html">About MHDL</a>
+              <a href="aboutMDHL.html">About MHDL</a>
             </li>
             <li id="contact">
-              <a  href="contact.html">Contact</a>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li id="rules">
+              <a href="rules.html">Rules</a>
+            </li>
+            <li id="game_info">
+              <a href="game_info.html">Game_info</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
+  </header>
 
-    <section id="main">
+  <main>
+    <div class="title-container">
+      <h1 id="h1">Contact</h1>
+    </div>
 
-      <div class="title-container">
-        <h1 id="h1">Contact</h1>
-      </div>
-  
-      <div class="upcomingevents">
-  
-        <div class="logo-container">
-          <img id="logo" src="Imagenes/Logo_Mighty_ducks-01.png" alt="Logo hockey">
+    <div class="upcomingevents">
+      <div class="logo-container">
+        <div class="logo-inner__container">
+          <img
+            id="logo"
+            src="Imagenes/Logo_Mighty_ducks-01.png"
+            alt="Logo hockey"
+          />
         </div>
-       
-        <div class="text-container">
-  
+      </div>
+
+      <div class="info-container">
         <div class="ancho">
-         
+          
           <p>
             Please email us at <a id="noatributes" href="">mdhl@chihockey.org</a> 
           </p>
@@ -52,19 +68,17 @@
           <p>
            We reply to your email as soon as we can.
           </p>
-        </div>
-         
-         <div class="nuevaimagen-container">
-          <img style="display: none;" src="Imagenes/hockey_1.jpg" alt="hockey 1">
-        </div>
-  
+
         </div>
       </div>
-  
-    </section>
 
-
-  </div>
+      <div class="nuevaimagen-container">
+        <div class="inner-imagen">
+          <img id="imagen" src="Imagenes/hockey_3.jpg" alt="hockey 1" />
+        </div>
+      </div>
+    </div>
+  </main>
     
 </body>
 </html>
